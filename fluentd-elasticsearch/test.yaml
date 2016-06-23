@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "webpod"
+  labels:
+    name: "webpod"
+  namespace: "default"
+spec:
+  containers:
+    - name: "webpod8080"
+      image: "jonlangemak/docker:web_container_8080"
+      ports: 
+       - containerPort: 8080

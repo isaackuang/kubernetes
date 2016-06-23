@@ -1,0 +1,17 @@
+{
+    "kind": "Endpoints",
+    "apiVersion": "v1",
+    "metadata": {
+        "name": "kube-dns"
+    },
+    "subsets": [
+        {
+            "addresses": [
+                { "ip": "172.25.8.252" }
+            ],
+            "ports": [
+                { "port": 53 }
+            ]
+        }
+    ]
+}
